@@ -14,12 +14,6 @@ import path from "path";
 const app = express();
 const PORT = process.env.PORT || 4000
 
-// app.use(cors(
-//   {
-//     origin: {"https://hotel-backend-xi.vercel.app"},
-//     credentials: true
-//   }
-// ));
 
 //midlewares
 app.use(express.json())
