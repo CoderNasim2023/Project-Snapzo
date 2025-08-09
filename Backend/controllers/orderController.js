@@ -8,7 +8,6 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 //config variables
 const currency = "inr";
 const deliveryCharge = 50;
-const frontend_URL = 'https://snapzo-backend.vercel.app/';
 
 // Placing User Order in Frontend page  using stripe payment gateway
 const placeOrder = async (req, res) => {
